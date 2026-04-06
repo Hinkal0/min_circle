@@ -27,7 +27,7 @@ Circle minCircleHelper(std::vector<Point2D>& points, std::vector<Point2D> bounda
 		case 1:
 			return Circle{boundary[0], 0};
 		default:
-			return Circle{{0,0}, 0};
+			return Circle{{0,0}, -1};
 		}
 	}
 
